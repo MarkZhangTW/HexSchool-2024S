@@ -12,6 +12,10 @@
     flex-direction: column;
     gap: 16px;
 }
+.cards>.card>img {
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+}
 .cards>.card>.text {
     /* border-bottom: 1px;
     box-sizing: border-box; */
