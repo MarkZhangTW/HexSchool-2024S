@@ -1,0 +1,168 @@
+/* content:homepage */
+.content.homepage.activated {
+    display: flex;
+    flex-direction: column;
+}
+/* content:homepage > hero */
+.content.homepage>.hero {
+    padding: 0 0 0 max(32px, min(312px, calc((100vw - (100vw - 100%)) - 1920px + 312px)));
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.content.homepage>.hero>.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.content.homepage>.hero>.intro>.text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content.homepage>.hero>.intro>.text>h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    columns: #3B3B3B;
+}
+.content.homepage>.hero>.intro>.text>.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.content.homepage>.hero>.intro>.text>.detail>.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.content.homepage>.hero>.intro>.text>.detail>.info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content.homepage>.hero>.intro>.text>.detail>.info>.custo {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.content.homepage>.hero>.intro>.text>.detail>.info>.custo>p.hl {
+    background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/mark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.content.homepage>.hero>.intro>.text>.detail>.tag {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C1C1C1;
+}
+.content.homepage>.hero>.intro>.social-links {
+    display: flex;
+    gap: 16px;
+}
+/* content:homepage > works */
+.content.homepage>.works {
+    padding-top: 120px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+.content.homepage>.works>.title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.content.homepage>.works>.title>h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0.12em;
+    color: #3B3B3B;
+}
+.content.homepage>.works>.body {
+    width: 100%;
+}
+.content.homepage>.works>.body>.work {
+    height: 800px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 312px 0;
+}
+.content.homepage>.works>.body>.work>.intro {
+    width: 526px;
+    border-radius: 24px;
+    padding: 80px 40px 56px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    background-color: #FFFFFF1A;
+    backdrop-filter: blur(4px);
+}
+.content.homepage>.works>.body>.work>.intro>.text {
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content.homepage>.works>.body>.work>.intro>.text>.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.content.homepage>.works>.body>.work>.intro>.text>.detail>h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #FFFFFF;
+}
+.content.homepage>.works>.body>.work>.intro>.text>.detail>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.content.homepage>.works>.body>.work>.intro>.text>.tags {
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B3B3B;
+}
+.content.homepage>.works>.body>.work>.intro>.text>.tags>.tag {
+    border-radius: 16px;
+    padding: 4px 12px;
+    background-color: #FFFFFF;
+}
+.content.homepage>.works>.body>.work>.intro>.link {
+    border-radius: 5px;
+    padding: 16px 32px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    background-color: #000000;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content.homepage>.works>.body>.work1 {
+    background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/homepage-work1-bg.png');
+    background-repeat: no-repeat;
+}
+.content.homepage>.works>.body>.work2 {
+    background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/homepage-work2-lg.png');
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+}
+.content.homepage>.works>.body>.work2>.intro {
+    background-color: #0A101380;
+}

@@ -1,0 +1,81 @@
+/* content:works.activated */
+.content.works.activated {
+    display: flex;
+}
+/* content:works > banner */
+.content.works>.banner {
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.content.works>.banner>.slogan {
+    width: 670px;
+    /* height: 192px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content.works>.banner>.slogan>.text {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+.content.works>.banner>.slogan>.text>h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+    position: relative;
+}
+.content.works>.banner>.slogan>.text>h4>p {
+    position: relative;
+    z-index: 1;
+}
+.content.works>.banner>.slogan>.text>h4>img.hl {
+    position: absolute;
+    right: -0.5em;
+    bottom: 0px;
+}
+.content.works>.banner>.slogan>.quote.left {
+    margin-right: auto;
+    margin-bottom: -13px;
+}
+.content.works>.banner>.slogan>.quote.right {
+    margin-left: auto;
+    margin-top: -13px;
+}
+.content.works>.banner>.cards {
+    width: 636px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.content.works>.banner>.cards>.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.content.works>.banner>.cards>.card>.title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+.content.works>.banner>.cards>.card>.title>h6 {
+    line-height: 24px;
+    color: #5B5B5B;
+}
+.content.works>.banner>.cards>.card>.title>.line {
+    width: 24px;
+    border-bottom: 2px solid #C1C1C1;
+}
+.content.works>.banner>.cards>.card>p {
+    line-height: 24px;
+    text-align: center;
+    color: #3B3B3B;
+}

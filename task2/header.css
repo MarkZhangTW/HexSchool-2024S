@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 32px max(32px, min(312px, calc((100vw - (100vw - 100%)) - 1920px + 312px)));
+}
+.header>.logo {
+    position: absolute;
+}
+.header>.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.header>.menu>.item {
+    padding: 4px 8px;
+}
+.header>.menu>.item.activated {
+    background: 
+        linear-gradient(to right, #919191 1px, transparent 0px) 0 0,
+        linear-gradient(to right, #919191 1px, transparent 0px) 0 100%,
+        linear-gradient(to left, #919191 1px, transparent 0px) 100% 0,
+        linear-gradient(to left, #919191 1px, transparent 0px) 100% 100%,
+        linear-gradient(to bottom, #919191 1px, transparent 0px) 0 0,
+        linear-gradient(to bottom, #919191 1px, transparent 0px) 100% 0,
+        linear-gradient(to top, #919191 1px, transparent 0px) 0 100%,
+        linear-gradient(to top, #919191 1px, transparent 0px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+}
+.header>.menu>.item>a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}

@@ -1,0 +1,53 @@
+/* footer */
+.footer {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/footer-bg-lg.png);
+    background-repeat: no-repeat;
+    border-top: 1px solid #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px max(32px, min(312px, calc((100vw - (100vw - 100%)) - 1920px + 312px)));
+    align-items: center;
+}
+.footer>.info {
+    width: 686px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.footer>.info>.text>p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B3B3B;
+}
+.footer>.info>.email {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #919191;
+}
+.footer>.links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer>.links>.link>a {
+    text-decoration: none;
+    width: 306px;
+    border-radius: 8px;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    padding: 8px 24px;
+    display: flex;
+    gap: 8px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #000000;
+}
+.footer>.links>.link>a:hover {
+    filter: invert(100%);
+}
