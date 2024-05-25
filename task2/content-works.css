@@ -93,6 +93,7 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 80px;
     justify-content: center;
 }
 .content.works>.main>.cards>.card {
