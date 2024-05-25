@@ -1,6 +1,7 @@
 /* content:works.activated */
 .content.works.activated {
     display: flex;
+    flex-direction: column;
 }
 /* content:works > banner */
 .content.works>.banner {
@@ -78,4 +79,89 @@
     line-height: 24px;
     text-align: center;
     color: #3B3B3B;
+}
+/* content:works > main */
+.content.works>.main {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+}
+.content.works>.main>.cards {
+    /* max-width: 1296px; */
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content.works>.main>.cards>.card {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.content.works>.main>.cards>.card>img {
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+}
+.content.works>.main>.cards>.card>.text {
+    border-bottom: 1px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content.works>.main>.cards>.card>.text>.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.content.works>.main>.cards>.card>.text>.intro>h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #3B3B3B;
+}
+.content.works>.main>.cards>.card>.text>.intro>p {
+    line-height: 24px;
+    color: #919191;
+}
+.content.works>.main>.cards>.card>.text>.tags {
+    display: flex;
+    gap: 16px;
+}
+.content.works>.main>.cards>.card>.text>.tags>.tag {
+    border-radius: 16px;
+    padding: 4px 12px;
+    background-color: #F1F1F1;
+    line-height: 24px;
+    color: #3B3B3B;
+}
+.content.works>.main>.pages {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.content.works>.main>.pages>.page {
+    min-width: 40px;
+    border-radius: 4px;
+    padding: 2px 13px;
+    box-sizing: border-box;
+}
+.content.works>.main>.pages>.page:hover {
+    background-color: #DDD;
+}
+.content.works>.main>.pages>.page>a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #3B3B3B;
+}
+.content.works>.main>.pages>.page.active {
+    background-color: #1E1E1E;
+}
+.content.works>.main>.pages>.page.active>a {
+    color: #FFFFFF;
 }
